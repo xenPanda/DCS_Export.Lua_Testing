@@ -36,11 +36,11 @@ end
 end
 function LuaExportAfterNextFrame()
 
-  local _GeoPoint = LoGeoCoordinatesToLoCoordinates(_client.lng,_client.lat)
-  PANDA.log(_GeoPoint)
+--  local _GeoPoint = LoGeoCoordinatesToLoCoordinates(_client.lng,_client.lat)
+--  PANDA.log(_GeoPoint)
 
-local IAS = LoGetIndicatedAirSpeed()
-
+  local IAS = LoGetIndicatedAirSpeed()
+  PANDA.log(IAS)
 
 end
   
